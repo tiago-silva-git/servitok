@@ -1,6 +1,43 @@
 @charset "UTF-8";
 
+/* Logo Servitok */
+@media (min-width: 320px) {
 img.logotipo {
-    height: 180px;
-    width: 200px;
+    position: relative;
+    left: 33px;
+    top: -60px;
+    max-width: 250px; 
 }
+}
+
+@media (min-width: 360px) {
+img.logotipo {
+    position: relative;
+    left: 43px;
+    top: -60px;
+    max-width: 250px; 
+}
+}
+
+@media (min-width: 375px) {
+img.logotipo {
+    position: relative;
+    left: 53px;
+    top: -60px;
+    max-width: 250px; 
+}
+}
+
+@media (min-width: 411px) {
+img.logotipo {
+    position: relative;
+    left: 73px;
+    top: -60px;
+    max-width: 250px; 
+}
+}
+
+
+
+
+
