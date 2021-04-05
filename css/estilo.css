@@ -44,6 +44,21 @@ body {
     width: 320px;
   }
 }
+
+/* Botões desktop */
+@media (min-width: 1024px) {
+  #celular {
+    position: absolute;
+    margin-left: 350px;
+  }
+}
+
+@media (min-width: 1024px) {
+  #foto {
+    position: absolute;
+    margin-left: 20px;
+  }
+}
   
 .dropdown {
   position: relative;
@@ -106,4 +121,13 @@ body {
   text-align: center;
   margin-top: 100px;
   font-size: 15px;
+}
+
+@media (min-width: 411px) {
+.footer {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 600px;
+  margin-right: 600px;
+}
 }
