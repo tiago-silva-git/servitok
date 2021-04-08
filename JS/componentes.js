@@ -8,3 +8,5 @@ function tiktok() {
     var copiado = document.getElementById("btncopiar");
     copiado.innerHTML = `Copiado`
 }
+
+
