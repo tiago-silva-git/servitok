@@ -69,7 +69,7 @@ img.iconeapp {
 }
 
 /*Modal TikTok*/
-#abrirModal1 {
+.modal {
     width: 280px;
     position: absolute;
     margin: 45% auto;
@@ -79,84 +79,39 @@ img.iconeapp {
 }
 
 @media  (min-width: 320px) {
-#abrirModal1 {
-    margin: 45% auto;
-}
-}
-
-@media  (min-width: 375px) {
-#abrirModal1 {
-    margin-bottom: 230px;
-}
-}
-
-@media  (min-width: 411px) {
-#abrirModal1 {
-    margin-bottom: 260px;
-}
-}
-
-@media  (min-width: 411px) {
-#abrirModal1 {
-    margin-bottom: 260px;
-}
-}
-
-@media  (min-width: 1024px) {
-#abrirModal1 {
-    margin-bottom: 550px;
-}
-}
-
-/*Modal Kwai*/
-#abrirModal2 {
-    width: 280px;
-    position: absolute;
-    margin: 45% auto;
-    background: rgb(156, 192, 190);
-    text-align: center;
-    border-radius: 15px;
-}
-
-@media  (min-width: 320px) {
-#abrirModal2 {
-    margin: 45% auto;
-}
+   .modal {
+      margin: 45% auto;
+   }
 }
 
 @media  (min-width: 375px) {
-#abrirModal2 {
-    margin-bottom: 230px;
-}
-}
-
-@media  (min-width: 411px) {
-#abrirModal2 {
-    margin-bottom: 260px;
-}
+   .modal {
+      margin-bottom: 230px;
+   }
 }
 
 @media  (min-width: 411px) {
-#abrirModal2 {
-    margin-bottom: 260px;
+   .modal {
+      margin-bottom: 260px;
+   }
 }
+
+@media  (min-width: 411px) {
+   .modal  {
+      margin-bottom: 260px;
+   }
 }
 
 @media  (min-width: 1024px) {
-#abrirModal2 {
-    margin-bottom: 550px;
+   .modal  {
+      margin-bottom: 550px;
+   }
 }
-}
-
 
 .ptxt {
     text-align: center;
     margin-left: 8px;
 }
-
-
-
-
 
 .fechar {
     position: absolute;
@@ -170,37 +125,25 @@ img.iconeapp {
     border-radius: 50%;
     font-size: 16px bold;
     color: #8d0000;
-  }
+}
 
-  /*Botão do modal apps*/
+/*Botão do modal apps*/
 #btnapp {
     width: 200px;
     margin-left: -28px;
     background-image: linear-gradient(to right, rgba(145, 140, 140, 0.13), rgba(128, 206, 206, 0.445), rgba(13, 45, 228, 0.308));
 }
 /*TikTok*/
-#btncopiar {
-    font-weight: bold;
-    font-size: 30px;
-}
-
-/*Kwai*/
-#btncopiar2 {
+.btncopiar {
     font-weight: bold;
     font-size: 30px;
 }
 
  /*input do modal apps INVISIVEL*/
-#execCopy {
+#myInput {
     position: absolute;
     top: 100px;
 }
-
-#execCopy2 {
-    position: absolute;
-    top: 100px;
-}
-
 
 
 

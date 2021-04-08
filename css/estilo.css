@@ -127,10 +127,9 @@ body {
 }
 
 @media (min-width: 1024px) {
-.footer {
-  position: absolute;
-  margin-top: 300px;
-  margin-left: 600px;
-
-}
+  .footer {
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 600px;
+  }
 }

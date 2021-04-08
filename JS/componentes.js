@@ -1,16 +1,10 @@
 /*Botão de copiar do modal*/
 /*TikTok*/
-function copiar() {
-    document.getElementById("execCopy").select();
+function tiktok() {
+    var n = document.getElementById("codtxt");
+    n.select();
+    n.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    var copiado = document.getElementById("btncopiar")
-    copiado.innerHTML = `Copiado`
-}
-
-/*Kwai*/
-function copiar2() {
-    document.getElementById("execCopy2").select();
-    document.execCommand("copy");
-    var copiado = document.getElementById("btncopiar2")
+    var copiado = document.getElementById("btncopiar");
     copiado.innerHTML = `Copiado`
 }
