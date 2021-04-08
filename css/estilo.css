@@ -5,6 +5,15 @@ body {
 }
 
 /*Texto da página*/
+#txtapps {
+  margin-top: -120px;
+  margin-bottom: 140px;
+  margin-left: 35px;
+  margin-right: 20px;
+  font-size: 20px;
+  font-family: "Roboto",sans-serif;
+}
+
 #conteudo {
     margin-top: -120px;
     margin-left: 35px;
