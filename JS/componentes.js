@@ -1,12 +1,23 @@
 /*Botão de copiar do modal*/
 /*TikTok*/
-function tiktok() {
+function copiar() {
     var n = document.getElementById("codtxt");
     n.select();
     n.setSelectionRange(0, 99999)
     document.execCommand("copy");
     var copiado = document.getElementById("btncopiar");
     copiado.innerHTML = `Copiado`
-    /*resolver problema aqui*/
+    copiado.style.color = '#32CD32';
     document.getElementById("codtxt").disabled = true;
+}
+
+function copiar2() {
+    var n = document.getElementById("codtxt2");
+    n.select();
+    n.setSelectionRange(0, 99999)
+    document.execCommand("copy");
+    var copiado = document.getElementById("btncopiar2");
+    copiado.innerHTML = `Copiado`
+    copiado.style.color = '#32CD32';
+    document.getElementById("codtxt2").disabled = true;
 }
