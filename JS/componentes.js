@@ -5,7 +5,8 @@ function tiktok() {
     n.select();
     n.setSelectionRange(0, 99999)
     document.execCommand("copy");
-    document.getElementById("codtxt").disabled = true;
     var copiado = document.getElementById("btncopiar");
     copiado.innerHTML = `Copiado`
+    /*resolver problema aqui*/
+    document.getElementById("codtxt").disabled = true;
 }
