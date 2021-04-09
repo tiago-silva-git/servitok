@@ -45,6 +45,11 @@ img.iconeapp {
 }
 }
 
+img#quackimg {
+    max-width: 86px; 
+    top: 7px;
+}
+
 /*Modal apps*/
 .modal {
   position: fixed;
