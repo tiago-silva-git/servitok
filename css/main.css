@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+/* Fonts importadas */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+/* Paleta de cores */
+:root {
+    --cor0: #727578;
+    --cor1: #A1A6AA;
+    --cor2: #789CB9;
+    --cor3: #A1D0F7;
+    --cor4: #EBF2F7;
+}
+
+/* Estilos de fonts */
+:root {
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', cursive;
+}
+
+/* Configuração Global */
+* {
+   margin: 0px;
+   padding: 0px; 
+}
+
+/* Cabeçalho */
+
+/* Corpo do site */
+
+/* Rodapé de site */
